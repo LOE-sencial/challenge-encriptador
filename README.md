@@ -1,2 +1,2 @@
-<em> # Encriptador de texto </em>
+<em> Encriptador de texto </em>
 
