@@ -16,8 +16,8 @@ Si se quiere revertir la encriptación, se puede oprimir el botón 'Copiar' y pe
     <li>Ocultar el botón de copiar al inicio, que aparezca después de que el usuario oprima por primera vez el botón de encriptar.</li>
     <li>Limpiar el textarea del resultado (container del lado derecho) después de que se oprima el botón de copiar.</li>
 </ul>
-<p> <em>P.D Recibo otras sugerencias de posibles mejoras. </em> </p>
+<p> <em>P.D. Recibo otras sugerencias de posibles mejoras. </em> </p>
 
 <h2>Autores</h2>
-<p>LOE-sencial</p>
+<p text-aling: center> <em> LOE-sencial </em> </p>
  
