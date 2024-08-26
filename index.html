@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador Alura</title>
+    <link rel="stylesheet" href="/style.css">
+
+<body>
+    <div class="principal">
+        <header>
+            <img src="assets/logo.png" alt="Logo Alura. Letra a de color azul" class="logo">
+        </header>
+
+        <main>
+            <section class="cuadro-entrada">
+                <textarea class="texto-usuario" cols="30" rows="10"  placeholder="Ingrese el texto aquí"></textarea>
+                <h6 class="informacion">
+                    <img src="/assets/alerta.png" alt="signo de alerta" class="img-alerta">
+                    Solo letras minúsculas y sin acentos.
+                </h6>
+
+                <div class="botones">
+                    <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</buttom>
+                    <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</buttom>
+                </div>
+            </section>
+
+            <section class="cuadro-salida">
+                <textarea disabled class="texto-final" cols="20" rows="10">
+                </textarea>
+                <div class="textos-informativos">
+                    <p class="mensaje">Ningún mensaje fue encontrado</p>
+                    <p class="mensaje-indicacion">Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+                <button class="btn-copiar" onclick="btnCopiar()">Copiar</button>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p class="creditos">Desarrollado por LOE-esencial. 2024</p>
+    </footer>
+    
+    <script src="/script.js"></script>
+</body>
+
+</html>

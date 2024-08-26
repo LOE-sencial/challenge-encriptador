@@ -1,0 +1,284 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --color-principal: #f3f5fc; 
+    --color-secundario: #0A3871;
+    --color-terciario: #ffffff;
+    --fuente: "Inter", sans-serif;
+}
+
+* {
+    background-color: var(--color-principal);
+    font-family: var(--fuente);
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.principal {
+    display: flex;
+    width: 100%;
+    
+}
+
+header {
+    width: 10%;
+}
+
+.logo {
+    margin-top: 25%;
+    margin-left: 4%;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: auto;
+}
+
+.cuadro-entrada{
+    width: 70%;
+    margin-top: 10%;
+    height: 65%;
+}
+
+.texto-usuario{
+    font-size: 0.8rem;
+    width: 70%;
+    height: 57%;
+    resize: none;
+    border: none;
+    color: var(--color-secundario);
+}
+
+.texto-usuario:focus{
+    outline: none;
+}
+
+.texto-usuario::placeholder{
+    color: var(--color-secundario);
+    font-size: 0.8rem;
+}
+
+.informacion{
+    font-size: 0.5rem;
+}
+
+.botones {
+    display: flex;
+    gap: 4%;
+    text-align: center;
+}
+
+.btn-encriptar {
+    background-color: var(--color-secundario);
+    width: 40%;
+    height: 64px;
+    border-radius: 24px;
+    border: none;
+    color: var(--color-terciario);
+    cursor: pointer;
+    font-size: 0.5rem;
+   
+}
+
+.btn-desencriptar {
+    background-color: var(--color-terciario);
+    width: 40%;
+    border-radius: 24px;
+    color: var(--color-secundario);
+    border: 1px solid var(--color-secundario);
+    cursor: pointer;
+    height: 64px;
+    font-size: 0.5rem;
+}
+
+.cuadro-salida {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    padding: 2%;
+    margin: 3% 3% 5% 2%;
+    background-color: var(--color-terciario);
+    border-radius: 32px;
+    box-shadow: 1px 3px 8px 5px #949494;
+    text-align: center;
+}
+
+.texto-final{
+    width: 90%;
+    height: 52%;
+    background-color: var(--color-terciario);
+    background-image: url(/assets/muñeco.png);
+    background-repeat: no-repeat;
+    background-position: right 30% bottom 0%;
+    background-size: auto 70%;
+    border: none;
+    border-radius: 24px;
+    color: var(--color-secundario);
+    resize: none;
+    font-size: 0.8rem;
+}
+
+.texto-final::placeholder{
+    color: var(--color-secundario);
+    margin: 2%;
+}
+
+.textos-informativos{
+    background-color: var(--color-terciario);
+}
+
+.mensaje {
+    font-size: 0.6rem;
+    font-weight: 600;
+    line-height: 120%;
+    background-color: var(--color-terciario);
+    margin-bottom: 0%;
+    margin-top: 0%;
+    padding: 0% 8%;
+}
+
+.mensaje-indicacion {
+    font-size: 0.42rem;
+    background-color: var(--color-terciario);
+    margin-top: 0%;
+    padding: 2% 10% 10% 10%;
+}
+
+.btn-copiar {
+    background-color: var(--color-terciario);
+    width: 80%;
+    height: 64px;
+    margin-bottom: 2%;
+    border-radius: 24px;
+    color: var(--color-secundario);
+    border: 1px solid var(--color-secundario);
+    font-size: 0.5rem;
+}
+
+footer {
+    width: auto;
+    background-color: var(--color-secundario);
+    text-align: center;
+    padding: 1%;
+}
+
+.creditos {
+    background-color: var(--color-secundario);
+    color: var(--color-terciario);
+    font-size: 0.6rem;
+    margin: 0;
+}
+
+/* -------------------------- DISEÑO TABLET*/
+@media (max-width: 1150px) {
+    
+    .principal {
+        display: flex;
+        flex-direction: column;
+    }
+ 
+    .logo {
+        padding-top: 20%
+    }
+
+    main {
+        flex-direction: column;
+        padding: 0 0% 0% 5%;  
+    }
+
+    .cuadro-entrada {
+        margin-top: 5%;
+        width: auto;
+    }
+
+    .texto-usuario{
+        width: 90%;
+    }
+    
+    .botones {
+        justify-content: space-between;
+    }
+
+    .btn-encriptar {
+        width: 50%;
+    }
+    
+    .btn-desencriptar {
+        width: 50%;
+    }
+
+    .cuadro-salida {
+        width: auto;
+        margin: 10% 0% 15% 0%;
+        align-items: center;
+    }
+
+    .texto-final {
+        background-image: none;
+        background-color: var(--color-terciario);
+        width: 90%;
+        height: 80px;
+    }
+
+    .mensaje{
+        width: auto;
+        padding: 0%;
+        text-align: center;
+    }
+
+    .mensaje-indicacion {
+        width: auto;
+        padding: 0%;
+    }
+
+    .btn-copiar{
+        width: 85%;
+        margin-bottom: 5%;
+    }
+    
+}
+
+
+
+
+/* ---------------------- DISEÑO CELULAR */
+
+@media (max-width: 600px) {
+
+    .logo {
+        margin-top: 10%;
+    }
+
+    
+    .cuadro-entrada {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .texto-usuario {
+        width: 100%;
+    }
+
+    .botones {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .btn-encriptar {
+        width: 80%;
+    }
+    
+    .btn-desencriptar {
+        width: 80%;      
+    }
+
+}
+
+
