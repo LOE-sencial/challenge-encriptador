@@ -2,7 +2,8 @@
 <h3>Proyecto realizado con HTML, CSS y JS</h3>
 
 <h2>Descripción</h2>
-![image](https://github.com/user-attachments/assets/217eebbd-d7e2-4638-9a16-af2e56910762)
+![Vista de la página web](https://github.com/user-attachments/assets/0bdf5f4f-3f33-4201-a203-b72403ad11ce)
+
 
 
 <h3></h3>
