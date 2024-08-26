@@ -19,5 +19,5 @@ Si se quiere revertir la encriptación, se puede oprimir el botón 'Copiar' y pe
 <p> <em>P.D. Recibo otras sugerencias de posibles mejoras. </em> </p>
 
 <h2>Autores</h2>
-<p text-aling: center> <em> LOE-sencial </em> </p>
+<p> <em> LOE-sencial </em> </p>
  
